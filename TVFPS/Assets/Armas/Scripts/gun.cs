@@ -7,7 +7,7 @@ public class gun : MonoBehaviour {
 
     public float damage = 10f;
     public float range = 100f;
-    public float fireRate = 15f;
+    public float fireRate = 0.1f;
     public ParticleSystem particles;
     public GameObject ImpactEffect;
     public float ImpactForce = 200f;

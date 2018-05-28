@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -220,6 +220,81 @@ Prefab:
       propertyPath: Jugador
       value: 
       objectReference: {fileID: 476658996}
+    - target: {fileID: 224855122062388950, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 224855122062388950, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 87
+      objectReference: {fileID: 0}
+    - target: {fileID: 224855122062388950, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224643568848000568, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -139
+      objectReference: {fileID: 0}
+    - target: {fileID: 224357559132435428, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -178.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 224643568848000568, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -91
+      objectReference: {fileID: 0}
+    - target: {fileID: 224643568848000568, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 508
+      objectReference: {fileID: 0}
+    - target: {fileID: 224357559132435428, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 508
+      objectReference: {fileID: 0}
+    - target: {fileID: 224357559132435428, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -39.100037
+      objectReference: {fileID: 0}
+    - target: {fileID: 224643568848000568, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.49261206
+      objectReference: {fileID: 0}
+    - target: {fileID: 224643568848000568, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.106953934
+      objectReference: {fileID: 0}
+    - target: {fileID: 224643568848000568, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.23932116
+      objectReference: {fileID: 0}
+    - target: {fileID: 224357559132435428, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.49261537
+      objectReference: {fileID: 0}
+    - target: {fileID: 224357559132435428, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.106952466
+      objectReference: {fileID: 0}
+    - target: {fileID: 224357559132435428, guid: c130adc8819de67498f11f3be93dea36,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.2393212
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c130adc8819de67498f11f3be93dea36, type: 2}
   m_IsPrefabParent: 0
@@ -765,7 +840,13 @@ Prefab:
       propertyPath: m_TagString
       value: enemigo
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114021105055067414, guid: 9043b887018fd3c46a2c1aaa0c7d3752,
+        type: 2}
+      propertyPath: sp
+      value: 
+      objectReference: {fileID: 100000, guid: 7fef63c589d362d45b5890555464a686, type: 3}
+    m_RemovedComponents:
+    - {fileID: 114021105055067414, guid: 9043b887018fd3c46a2c1aaa0c7d3752, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 9043b887018fd3c46a2c1aaa0c7d3752, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1619434231 stripped
