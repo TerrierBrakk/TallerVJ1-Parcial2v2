@@ -10,12 +10,16 @@ public class Vida : MonoBehaviour {
     public GameObject Jugador;
     public GameObject JuegoUI;
 
+	private AudioSource _Audiosource;
+
+
     public Text UIsaludJ;
     // Use this for initialization
     void Start()
     {
         isVulnerable = true;
         GameOverMenuUI.SetActive(false);
+		_Audiosource = GetComponent<AudioSource> ();
     }
 
     // Update is called once per frame

@@ -5,7 +5,6 @@ using UnityEngine;
 public class chase : MonoBehaviour {
 	public float fuerzatiro=60f;
 	public Transform player;
-	public GameObject sp;
 	static Animator anim;
 
 
@@ -26,7 +25,7 @@ public class chase : MonoBehaviour {
 
 
 			anim.SetBool ("isIddle", false);
-			if (direction.magnitude > 2) {
+			if (direction.magnitude > 5) {
 				
 				this.transform.Translate (0, 0, 0.7f);
 				anim.SetBool ("isWalking", true);
@@ -44,11 +43,5 @@ public class chase : MonoBehaviour {
 			
 			}
 		}
-
-	void throwsp()
-	{
-		GameObject ball = Instantiate (sp, transform.position, transform.rotation);
-		Rigidbody rb = ball.GetComponent<Rigidbody> ();
-		rb.AddForce (transform.forward * fuerzatiro);
-	}
+		
 	}
